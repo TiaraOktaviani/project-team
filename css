@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+}
+
+.fa-bars
+{
+    color: white;
+    position: absolute;
+    float: right;
+    left: 600px;
+    top: 26px;
+    width: 40px;
+    border: 1px solid red;
+    display: none;
+    opacity: 0;
+}
+
+.main-home
+{
+    background: url(aset-gambar/food2.png);
+    height: 657px;    
+    background-size: cover;
+}
+
+header
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    line-height: 70px;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    
+    background: rgba(211, 116, 26, 0.8);
+}
+
+nav h3
+{
+    font-family: 'Shadows Into Light', cursive;
+    left: 15px;
+    font-size: 30px;
+    float: left;
+    position: absolute;
+    color: black;
+
+}
+nav .logo1
+{
+    color: white;
+}
+nav span
+{
+    color: gold;
+}
+
+
+nav ul 
+{
+    display: flex;
+}
+nav ul li 
+{
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+nav ul li a
+{
+    text-decoration: aliceblue;
+    color: aliceblue;
+    
+    padding: 8px 8px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+nav ul li a:hover
+{
+    padding: 23px 13px;
+    transition: .5s;
+    background: rgb(230, 197, 14);
+    color: rgba(0,0,0,.5); 
+    font-weight: 500;
+    border-bottom: 4px solid white;
+}
+nav ul .active
+{   
+    padding: 0 3px;
+    background: rgba(245, 200, 0, 0.8);
+}
+
+nav ul .active:hover
+{
+    background: none;
+    transition: .5s;
+}
+/* header end */
+
+
+main
+{
+    max-width: 1170px;
+    height:auto;
+    
+    margin: 0 auto;
+}
+main .text
+{
+    margin-top: 190px;
+    position: absolute;
+    
+}
+main .text h1
+{
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-weight: 900;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+
+.text span
+{
+    font-size: 43.4px;
+}
+main .text button
+{
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    border: none;
+    transform: scale(1);
+    border-radius: 3px; 
+    background: burlywood;
+    margin-left: 15px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+main .text button:hover
+{
+    transform: scale(1.2);
+    background: rgba(255,255,255,1);
+
+    transition: .5s;
+    cursor: pointer;
+}
